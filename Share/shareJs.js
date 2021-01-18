@@ -29,10 +29,10 @@ navbar[0].innerHTML = ` <a class="navbar-brand" href="../laurentiubondor.github.
       <a class="nav-link" href="../laurentiubondor.github.io/index.html">Home</a> 
     </li>
     <li class="nav-item">
-      <a class="nav-link"href="../pages/Resume/resume.html">Resume</a>
+      <a class="nav-link"href="./pages/Resume/resume.html">Resume</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="../pages/Portofolio/portofolio.html">Portofolio</a>
+      <a class="nav-link" href="./pages/Portofolio/portofolio.html">Portofolio</a>
     </li>
   </ul>
 </div>`
