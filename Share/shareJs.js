@@ -19,20 +19,20 @@ pictogrameLinkuri.innerHTML = ` <div class="row links-icons">
 </div>`
 
 const navbar = document.getElementsByClassName("navbar")
-navbar[0].innerHTML = ` <a class="navbar-brand" href="../laurentiubondor.github.io/index.html"><i class=" fas fa-adjust fa-2x logo"></i></a>
+navbar[0].innerHTML = ` <a class="navbar-brand" href="../../index.html"><i class=" fas fa-adjust fa-2x logo"></i></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
   <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <a class="nav-link" href="../laurentiubondor.github.io/index.html">Home</a> 
+      <a class="nav-link" href="../../index.html">Home</a> 
     </li>
     <li class="nav-item">
-      <a class="nav-link"href="./pages/Resume/resume.html">Resume</a>
+      <a class="nav-link"href="/pages/Resume/resume.html">Resume</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./pages/Portofolio/portofolio.html">Portofolio</a>
+      <a class="nav-link" href="/pages/Portofolio/portofolio.html">Portofolio</a>
     </li>
   </ul>
 </div>`
