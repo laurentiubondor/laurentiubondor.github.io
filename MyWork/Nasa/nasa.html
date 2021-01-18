@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Imaginea zilei oferita de NASA</h1>
+
+    <div id="labelInput">
+      <label>Introdu data pentru a afisa imaginea zilei respective</label>
+      <input id="inp" type="text" placeholder="YYYY-MM-DD" />
+      <button type="button" id="activity-button">afisaza imaginea</button>
+      <div id="error">Invalid date or server error</div>
+    </div>
+
+    <div class="loader"></div>
+    <div id="titlu"></div>
+
+    <div id="poza"><img id="urlImg" src="" alt="Nu se poate afisa" /></div>
+
+    <script src="nasa.js"></script>
+  </body>
+</html>

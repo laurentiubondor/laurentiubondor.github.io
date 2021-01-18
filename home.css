@@ -1,0 +1,43 @@
+#welcomeBanner {
+  color: rgb(32, 45, 56);
+  position: static;
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+  height: 200px;
+  background-image: url("../../images/banner1.jpg");
+  margin-bottom: 150px;
+}
+#welcomeBanner div h1 {
+  color: rgb(90, 29, 55);
+  font-family: "Texturina", serif;
+  padding-top: 30px;
+}
+
+.container .col-md-6 img {
+  margin-top: 40px;
+  border-radius: 3%;
+}
+
+.about-me {
+
+  font-family: "Texturina", serif;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 22px;
+}
+
+@media (max-width: 880px) {
+  .container .col-md-6 img {
+    margin-bottom: 80px;
+  }
+
+  #welcomeBanner div h1 {
+    font-size: 30px;
+  }
+
+  .about-me p {
+    font-size: 20px;
+  }
+}

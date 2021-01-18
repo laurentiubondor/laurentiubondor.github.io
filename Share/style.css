@@ -1,0 +1,133 @@
+.logo {
+  color: rgb(206, 184, 113);
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.navbar {
+  font-family: "Texturina", serif;
+  border-bottom: solid rgb(84, 74, 230) 4px;
+  background-color: rgb(33, 84, 122) !important;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(33, 84, 122);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  color: rgb(174, 204, 218);
+  padding-top: 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  margin-left: 20px;
+}
+
+.adresa-tlefon-mail {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+}
+
+.icoane-facebook-linkedin-git {
+  margin-top: 30px;
+}
+
+.fa {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  color: rgb(206, 184, 113);
+}
+.fa:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+}
+
+#textAdresa {
+  font-family: "Texturina", serif;
+}
+
+.links-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 100px 0px 100px 0px;
+}
+.bloc-pictograme {
+  margin: 100px 20px 50px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloc-pictograme:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.pictograme {
+  color: rgb(84, 74, 230);
+}
+#textPictograme {
+  font-family: "Texturina", serif;
+  text-align: center;
+}
+
+a[href="mailto:laurentiu.bondor@gmail.com"] {
+  color: rgb(206, 184, 113);
+}
+#adresa:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media (max-width: 880px) {
+  .footer {
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-top {
+    font-size: 15px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .adresa-tlefon-mail {
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  .fa {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .fa-adjust {
+    font-size: 30px;
+  }
+
+  .bloc-pictograme {
+    margin: 20px 10px 20px 0px;
+  }
+  .fas {
+    font-size: 60px !important ;
+  }
+  .logo {
+    font-size: 30px !important ;
+  }
+}

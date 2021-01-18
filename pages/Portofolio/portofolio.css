@@ -1,0 +1,44 @@
+.container {
+  margin: 200px auto 50px auto;
+}
+
+.thumbnail img {
+  width: 300px;
+  height: 300px;
+  border-radius: 4%;
+}
+
+.thumbnail {
+  margin: 10px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+  .thumbnail img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .thumbnail img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .caption h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .thumbnail img {
+    width: 100px;
+    height: 100px;
+  }
+}

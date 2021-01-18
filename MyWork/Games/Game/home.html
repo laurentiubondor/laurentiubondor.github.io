@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game-List</title>
+  </head>
+
+  <body>
+    <div class="create-post">
+      <div class="input-section">
+        Titlu: <input type="text" id="postTitle" />
+      </div>
+      <div class="input-section">
+        Description:
+        <textarea type="text" id="postDescription" rows="10"></textarea>
+      </div>
+
+      <button type="button" id="Button">Adauga Joc</button>
+    </div>
+
+    <div id="posts"></div>
+    <script src="./serverApi.js"></script>
+    <script src="./games.js"></script>
+    <script src="./add.js"></script>
+    <script src="./get.js"></script>
+  </body>
+</html>

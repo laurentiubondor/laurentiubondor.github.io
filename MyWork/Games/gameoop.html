@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games</title>
+    <link rel="stylesheet" href="gamesoop.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Add Games</h1>
+    </div>
+    <div class="create-post">
+      <div class="input-section">
+        Description: <input type="text" id="description" />
+      </div>
+      <div class="input-section">
+        Image: <input type="text" id="imageUrl" />
+      </div>
+      <div class="input-section">Title: <input type="text" id="title" /></div>
+
+      <button type="button" id="postGameButton">Adauga Game</button>
+    </div>
+
+    <div id="posts"></div>
+    <div>
+      <h1>My List of Games</h1>
+    </div>
+    <ul id="games"></ul>
+
+    <div id="errorDiv"></div>
+
+    <div class="loader"></div>
+
+    <script src="gameoop.js"></script>
+    <script src="addgame.js"></script>
+  </body>
+</html>
