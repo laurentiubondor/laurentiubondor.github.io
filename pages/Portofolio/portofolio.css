@@ -9,14 +9,18 @@
 }
 
 .thumbnail {
-  margin: 30px;
+  margin: 30px 30px 15px 30px ;
+
+}
+.git-link{
+  margin-left: 30px;
 }
 
 .thumbnail:hover {
   cursor: pointer;
-
   transform: scale(1.1);
 }
+
 
 @media (max-width: 1000px) {
   .thumbnail img {
